@@ -1,0 +1,36 @@
+/* p{
+    color: red;
+    text-align: justify;
+    text-decoration: overline;
+    text-indent: 50%;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-transform: uppercase;
+} */
+
+div{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    /* border-top-width: 5px;
+    border-top-style: dotted; 
+    border-top-color: blue;
+    border-bottom-width: 5px;
+    border-bottom-style: double; 
+    border-bottom-color: red; 
+    border-left-width: 5px;
+    border-left-style: ridge; 
+    border-left-color: green; 
+    border-right-width: 5px;
+    border-right-style: groove; 
+    border-right-color: orange;  */
+    /* border-width: 10px;
+    border-style: dashed;
+    border-color: aqua; */
+    border: 10px solid green;
+    border-radius: 10px 30px 50px;
+}
