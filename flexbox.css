@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+#div1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    order: 4;
+}
+
+#div2{
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+}
+
+#div3{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    order: 3;
+}
+
+#div4{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+
+/* #div5{
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+} */

@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+}
+
+/* Id Selector */
+#myId{
+    background-color: darkcyan;
+    color: darkgoldenrod;
+}
+
+/* Class Selector */
+
+.myClass{
+    font-size: 60px;
+    background-color: darkkhaki;
+}
+
+/* Type Selector */
+h1{
+    background-color: coral;
+    color: cornflowerblue;
+}
+
+/* Pseudo Selector */
+p[name="para"]{
+    background-color: thistle;
+    color: tomato;
+    text-align: justify;
+}
+
+
+
+
