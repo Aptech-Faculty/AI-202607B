@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+div{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    /* transition: all 10s ease-in-out 0s; */
+    animation: MyDiv 10s ease-in-out 0s 3 normal;
+
+}
+@keyframes MyDiv{
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(300px,0px);
+    }
+    50%{
+        transform: translate(300px,300px);
+    }
+    75%{
+        transform: translate(0px,300px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+div:hover{
+    /* transform: translateX(-200px); */
+    /* transform: translateY(-300px); */
+    /* transform: translate(-200px,-200px); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.2); */
+    /* transform: scale(1.5); */
+    /* transform: rotateX(360deg); */
+    /* transform: rotate(360deg); */
+    /* transform: skew(45deg); */
+}

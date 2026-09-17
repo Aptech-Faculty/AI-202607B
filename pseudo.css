@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: aquamarine;
+    color: antiquewhite;
+}
+h1:hover{
+    background-color: brown;
+    color: burlywood;
+}
+
+h1:active{
+    background-color: green;
+    color: white;
+}
+
+a:visited{
+    background-color: cadetblue;
+    color: azure;
+}
+
+a:link{
+    background-color: black;
+    color: azure;
+}
+
+div li:first-child{
+    background-color: crimson;
+    color: cornflowerblue;
+}
+
+div li:last-child{
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+
+div li:nth-child(2){
+    background-color: skyblue;
+    color: rgb(100, 237, 152);
+}
+
+/* p::first-letter{
+    font-size: 60px;
+} */
+
+p::first-line{
+    background-color: cadetblue;
+    color: bisque;
+}
+
+h1::before{
+    content: 'Pseudo ';
+}
+
+h1::after{
+    content: ' Elements';
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: tan;
+    border: 10px solid #000;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    animation-name: Usaid;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes Usaid {
+    from{
+        background-color: tan;
+    }
+    to{
+        background-color: darkolivegreen;
+    }
+} */
+
+@keyframes Usaid {
+    0%{
+        background-color: tan;
+        border: 10px solid #000;
+    }
+    25%{
+        background-color: darkcyan;
+        border: 10px solid #5d8f90;
+    }
+    50%{
+        background-color: darksalmon;
+        border: 10px solid #7a62a37d;
+    }
+    75%{
+        background-color: deepskyblue;
+        border: 10px solid #8f9466b1;
+    }
+    100%{
+        background-color: tan;
+        border: 10px solid #000;
+    }
+}

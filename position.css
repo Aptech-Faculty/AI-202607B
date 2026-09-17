@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    position: relative;
+    overflow: scroll;
+    box-shadow: 10px 20px 100px blue;
+}
+#div1{
+    background-color: violet;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+#div2{
+    background-color: rgb(123, 30, 123);
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+    opacity: 0.5;
+}
+
+#div3{
+    background-color: rgb(130, 200, 238);
+}
+
+section{
+    font-size: 40px;
+    position: fixed;
+    left: 40%;
+    top: 0;
+}
+h1{
+    text-align: center;
+}
